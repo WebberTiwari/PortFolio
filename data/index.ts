@@ -34,7 +34,7 @@ export const gridItems = [
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
-    spareImg: "",
+    spareImg: "/grid.svg",
   },
   {
     id: 4,
