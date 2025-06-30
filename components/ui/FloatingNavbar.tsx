@@ -1,7 +1,7 @@
 // @/components/ui/FloatingNavbar.tsx
 
 "use client";
-import React, from "react";
+import React from "react";
 // Add useEffect and useState to your React import
 import { useState, useEffect } from "react";
 import {
