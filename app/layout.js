@@ -11,14 +11,19 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Abu Said - Software Developer",
-  description: "This is the portfolio of Abu Said...",
+  title: "Portfolio of Priyanshu - Software Developer",
+  description: "This is the portfolio of Priyanshu Tiwari...",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* ✅ Add favicon link */}
+        <link rel="icon" href="/favicon.ico" />
+
+
+        {/* Google Analytics */}
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
           strategy="afterInteractive"
